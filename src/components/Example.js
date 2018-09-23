@@ -11,8 +11,9 @@ import {
 const scope = { Textarea }
 
 const EditorBox = styled.div`
-  width: 400px;
+  width: 500px;
   margin: 0 3em;
+  overflow: auto;
 
   @media (max-width: 900px) {
     width: 100%;

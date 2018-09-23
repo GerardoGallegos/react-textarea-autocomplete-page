@@ -3,6 +3,8 @@ import Example from './components/Example'
 import styled from 'styled-components'
 import Install from './components/Install'
 import examples from './examples'
+import dataProps from './dataProps'
+import Table from './components/Table'
 
 const Container = styled.div`
   background-color: #4CAF50;
@@ -43,7 +45,9 @@ class App extends Component {
           <Title>React Textarea Autocomplete</Title>
           <Subtitle>Simple Textarea Autocomplete for tags, hashtags etc.</Subtitle>
           <Install />
-          <Link href='/#'>Github</Link>
+          <Link href='https://github.com/GerardoGallegos/react-textarea-autocomplete'>
+            Github
+          </Link>
         </Header>
 
         {examples.map(example => (
@@ -52,6 +56,10 @@ class App extends Component {
             description={example.description}
           />
         ))}
+
+        <Table
+          data={dataProps}
+        />
 
       </Container>
     )

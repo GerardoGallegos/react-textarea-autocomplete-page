@@ -1,18 +1,18 @@
 export default [
   {
-    description: 'Write some and add #s to show de suggest',
+    description: 'Write some and add #a to show de suggest',
     code: `// You can add some words in the list
     <Textarea
       char='#'
       list={[
-        'cool',
-        'genial',
-        'interesante',
-        'super',
-        'curso',
-        'nice',
-        'wacamole',
-        'fresa'
+        'tacos',
+        'blackberry',
+        'watermelon',
+        'kiwi',
+        'chili',
+        'lemon',
+        'orange',
+        'pineaple'
       ]}
     />`
   },
@@ -22,14 +22,14 @@ export default [
     <Textarea
       char='@'
       list={[
-        'cool',
-        'genial',
-        'interesante',
-        'super',
-        'curso',
-        'nice',
-        'wacamole',
-        'fresa'
+        'tacos',
+        'blackberry',
+        'watermelon',
+        'kiwi',
+        'chili',
+        'lemon',
+        'orange',
+        'pineaple'
       ]}
     />`
   },
@@ -38,17 +38,17 @@ export default [
     code: `// You can add some words in the list
     <Textarea
       char='#'
-      styleItemActive={{ background: 'orange'}}
-      styleItemInactive={{ background: '#2f2f2f'}}
+      activeItemStyle={{ background: 'orange', color: '#2f2f2f'}}
+      inactiveItemStyle={{ background: '#2f2f2f', color: '#FFF' }}
       list={[
-        'cool',
-        'genial',
-        'interesante',
-        'super',
-        'curso',
-        'nice',
-        'wacamole',
-        'fresa'
+        'tacos',
+        'blackberry',
+        'watermelon',
+        'kiwi',
+        'chili',
+        'lemon',
+        'orange',
+        'pineaple'
       ]}
     />`
   }
