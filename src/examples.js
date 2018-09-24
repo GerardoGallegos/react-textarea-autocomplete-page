@@ -29,7 +29,8 @@ export default [
         'chili',
         'lemon',
         'orange',
-        'pineaple'
+        'pineaple',
+        'cool'
       ]}
     />`
   },
@@ -51,5 +52,22 @@ export default [
         'pineaple'
       ]}
     />`
-  }
+  },
+  {
+    description: 'Limit position list',
+    code: `// Limit the ul x position
+    <Textarea
+      limitToParent
+      list={[
+        'tacos',
+        'blackberry',
+        'watermelon',
+        'kiwi',
+        'chili',
+        'lemon',
+        'orange',
+        'pineaple'
+      ]}
+    />`
+  },
 ]

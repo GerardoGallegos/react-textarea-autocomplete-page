@@ -36,6 +36,12 @@ export default [
     description: 'Adds the character in textarea when is selected'
   },
   {
+    propName: 'limitToParent',
+    type: 'Boolean',
+    default: 'false',
+    description: `Restrict ul list position in the parent's width`
+  },
+  {
     propName: 'showCharInList',
     type: 'Boolean',
     default: 'true',
@@ -51,19 +57,19 @@ export default [
     propName: 'listClass',
     type: 'String',
     default: '""',
-    description: 'Class css in the ul list'
+    description: 'Custom class in the ul list'
   },
   {
     propName: 'activeItemClass',
     type: 'String',
     default: '""',
-    description: 'Class css in the li item active'
+    description: 'Custom class in the li item active'
   },
   {
     propName: 'inactiveItemClass',
     type: 'String',
     default: '""',
-    description: 'Class css in the li item inactive'
+    description: 'Custom class in the li item inactive'
   },
   {
     propName: 'activeItemStyle',
