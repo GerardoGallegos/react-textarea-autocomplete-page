@@ -22,8 +22,11 @@ const Title = styled.h1`
   color: #FFF;
 `
 const Subtitle = styled.div`
-  font-size: 20px;
+  font-size: 25px;
   color: #FFF;
+  padding: 0.5em 0;
+  margin-top: 0.5em;
+  text-align: center;
 `
 
 const Link = styled.a`
@@ -49,13 +52,13 @@ class App extends Component {
             Github
           </Link>
         </Header>
-
         {examples.map(example => (
           <Example
             code={example.code}
             description={example.description}
           />
         ))}
+        <Subtitle>Prop Types</Subtitle>
 
         <Table
           data={dataProps}
